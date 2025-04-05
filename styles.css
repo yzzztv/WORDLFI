@@ -98,7 +98,7 @@ ul li:hover {
   justify-content: center;
 }
 
-.nft-image {
+.nft-image img {
   width: 200px;
   height: auto;
   border-radius: 10px;
@@ -106,9 +106,10 @@ ul li:hover {
   transition: transform 0.3s ease;
 }
 
-.nft-image:hover {
+.nft-image img:hover {
   transform: scale(1.05);
 }
+
 
 
 footer {
