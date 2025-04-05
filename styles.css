@@ -91,17 +91,23 @@ ul li:hover {
     background: #ff00ff;
 }
 
-.nft-image {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    margin-top: 15px;
-    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.5);
-    transition: transform 0.3s ease-in-out;
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 
-.nft-image:hover {
-    transform: scale(1.05);
+.nft-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.nft-gallery img:hover {
+  transform: scale(1.05);
 }
 
 
