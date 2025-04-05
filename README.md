@@ -1,0 +1,2 @@
+# WORDLFI
+Memecoin on Base
