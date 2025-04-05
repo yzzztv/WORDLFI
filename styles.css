@@ -96,9 +96,6 @@ ul li:hover {
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
-}
-
-.nft-image img {
   width: 200px;
   height: auto;
   border-radius: 10px;
@@ -106,7 +103,7 @@ ul li:hover {
   transition: transform 0.3s ease;
 }
 
-.nft-image img:hover {
+.nft-image:hover {
   transform: scale(1.05);
 }
 
